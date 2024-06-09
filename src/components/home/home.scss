@@ -1,0 +1,23 @@
+$primary-color: #ffa200;
+$second-color: #6eda78;
+.listContainer {
+  height: 100vh;
+  .box {
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.082);
+    width: 300px;
+    height: auto;
+    background-color: white;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    color: black;
+    h3 {
+      margin: 0px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+      padding: 0.5rem 1rem;
+    }
+    p {
+      padding: 0.5rem 1rem;
+      margin: 0px;
+    }
+  }
+}

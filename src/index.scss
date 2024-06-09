@@ -1,0 +1,10 @@
+$primary-color: #ffa200;
+$second-color: #6eda78;
+body {
+  background-image: linear-gradient(200deg, $primary-color, $second-color);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    height: 100vh;
+}

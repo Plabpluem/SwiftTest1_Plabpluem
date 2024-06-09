@@ -1,0 +1,14 @@
+{
+    "EN":"EN",
+    "TH":"TH",
+    "title": "Test1",
+    "title2": "Test2",
+    "title3": "Test3",
+    "description": {
+      "title1": "Layout & Style",
+      "title2": "Connect API",
+      "title3": "Form & Table"
+    },
+    "changePosition":"Move position",
+    "changeShape":"Move shape"
+  }

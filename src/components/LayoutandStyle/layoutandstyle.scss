@@ -1,0 +1,124 @@
+$primary-color:#ffa200 ;
+$second-color:#6eda78 ;
+h1{
+  padding-left: 2rem;
+}
+section {
+  width: 1400px;
+  margin: 0 auto;
+}
+.boxContainer{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+  height: 150px;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.boxContainer2:hover,.twoBox:hover{
+  background-color: $primary-color;
+  cursor: pointer;
+}
+.boxContainer2:active,.twoBox:active{
+  background-color: $second-color;
+  cursor: pointer;
+}
+.boxContainer2{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 150px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.move {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(53, 184, 53);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.twoBox {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+  width: 100%;
+  height: 150px;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  position: relative;
+}
+.buttonL {
+  width: 0px;
+  height: 0px;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 100px solid rgb(59, 59, 59);
+}
+.buttonR {
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 100px solid rgb(59, 59, 59);
+}
+.buttonT {
+  width: 0px;
+  height: 0px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgb(59, 59, 59);
+}
+.buttonB {
+  width: 0px;
+  height: 0px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid rgb(59, 59, 59);
+}
+.buttonSquare{
+  background-color: #555;
+  width: 100px;
+  height: 100px;
+}
+.buttonTrapezoid{
+  width: 100px;
+  height: 0;
+  border-bottom: 130px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+}
+.buttonLSquare{
+  width: 300px;
+  height: 130px;
+  background-color: #555;
+}
+.buttonLRSquare{
+  width: 270px;
+  height: 130px;
+  background-color: #555;
+  transform: skew(20deg);
+}
+.buttonCircle{
+  background-color: #555;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.buttonLCircle{
+  background-color: #555;
+  border-radius: 50%;
+  width: 230px;
+  height: 100px;
+}
